@@ -65,6 +65,7 @@ def customized_count(beginning, ending, step):
 #05
 
 def biggest_value(*n:float)->float:
+
     if not n:
         raise ValueError("At least one number must be provided!")
     the_biggest = None
